@@ -16,6 +16,7 @@ import { TemplateProfessional } from './components/templates/TemplateProfessiona
 import { TemplateCreative } from './components/templates/TemplateCreative'
 import { TemplateCompact } from './components/templates/TemplateCompact'
 import { TemplateAcademic } from './components/templates/TemplateAcademic'
+import { TemplatePremium } from './components/templates/TemplatePremium'
 import { TemplateSelector } from './components/TemplateSelector'
 
 // New components
