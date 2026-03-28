@@ -1,5 +1,5 @@
 import React from 'react';
-import { Mail, Phone, MapPin, Globe, GraduationCap, Briefcase, User, CheckCircle2, BookOpen } from 'lucide-react';
+import { Mail, Phone, MapPin, Globe, GraduationCap, Briefcase, User, CheckCircle, BookOpen } from 'lucide-react';
 
 export const TemplatePremium = ({ data }) => {
   const { personal, skills, education, experience } = data;
@@ -129,7 +129,7 @@ export const TemplatePremium = ({ data }) => {
               <div key={exp.id} className="group">
                 <div className="flex items-start gap-4 mb-4">
                   <div className="mt-1 transition-transform group-hover:scale-110">
-                    <CheckCircle2 size={18} className="text-[#1e293b]" />
+                    <CheckCircle size={18} className="text-[#1e293b]" />
                   </div>
                   <div className="flex-1">
                     <div className="flex justify-between items-baseline mb-2">
