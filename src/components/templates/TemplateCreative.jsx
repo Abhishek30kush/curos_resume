@@ -21,8 +21,8 @@ export const TemplateCreative = ({ data }) => {
             <p className="text-xl font-bold text-slate-400 mt-4 uppercase tracking-[.2em]">{personal.title}</p>
           </div>
           {personal.profileImage && (
-            <div className="w-48 h-48 rounded-full border-[10px] border-white shadow-2xl overflow-hidden -rotate-3 hover:rotate-0 transition-transform duration-500">
-              <img src={personal.profileImage} alt="Profile" className="w-full h-full object-cover" />
+            <div className="w-48 h-56 rounded-[5rem] border-[10px] border-white shadow-2xl overflow-hidden -rotate-3 hover:rotate-0 transition-transform duration-500">
+              <img src={personal.profileImage} alt="Profile" className="w-full h-full object-top object-cover" />
             </div>
           )}
         </header>

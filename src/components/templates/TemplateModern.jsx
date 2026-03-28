@@ -10,11 +10,11 @@ export const TemplateModern = ({ data }) => {
       <div className="w-[30%] bg-slate-900 text-white p-10 flex flex-col gap-10">
         <div className="mb-4">
           {personal.profileImage ? (
-            <div className="w-full aspect-square rounded-2xl overflow-hidden border-2 border-slate-700 shadow-2xl mb-6">
-              <img src={personal.profileImage} alt="Profile" className="w-full h-full object-cover" />
+            <div className="w-full aspect-[4/5] rounded-2xl overflow-hidden border-2 border-slate-700 shadow-2xl mb-6">
+              <img src={personal.profileImage} alt="Profile" className="w-full h-full object-top object-cover" />
             </div>
           ) : (
-            <div className="w-full aspect-square rounded-2xl bg-slate-800 flex items-center justify-center mb-6">
+            <div className="w-full aspect-[4/5] rounded-2xl bg-slate-800 flex items-center justify-center mb-6">
               <span className="text-6xl font-black text-slate-700">{personal.fullName?.charAt(0)}</span>
             </div>
           )}

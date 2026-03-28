@@ -19,7 +19,7 @@ export const TemplatePremium = ({ data }) => {
             <div className="w-44 h-44 rounded-full border-[6px] border-white/10 shadow-2xl p-1 bg-white/5 backdrop-blur-sm">
               <div className="w-full h-full rounded-full overflow-hidden border-4 border-white">
                 {personal.profileImage ? (
-                  <img src={personal.profileImage} alt="Profile" className="w-full h-full object-cover" />
+                  <img src={personal.profileImage} alt="Profile" className="w-full h-full object-top object-cover" />
                 ) : (
                   <div className="w-full h-full bg-slate-800 flex items-center justify-center">
                     <User size={64} className="text-slate-600" />
@@ -143,7 +143,7 @@ export const TemplatePremium = ({ data }) => {
                     </div>
                     <div className="text-sm text-slate-600 leading-relaxed font-medium pl-2 border-l-2 border-slate-50 group-hover:border-[#1e293b]/20 transition-colors">
                       <ul className="space-y-3 list-none">
-                        {exp.description?.split('\n').map((line, i) => (
+                        {(exp.description?.split('\n') || []).map((line, i) => (
                           <li key={i} className="flex items-start gap-2">
                              <span className="w-1.5 h-1.5 rounded-full bg-slate-300 mt-2 shrink-0"></span>
                              <span className="whitespace-pre-wrap">{line}</span>

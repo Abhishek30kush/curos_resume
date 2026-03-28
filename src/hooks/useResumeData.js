@@ -8,7 +8,7 @@ export const getTeacherData = () => ({
     address: 'New Delhi, India',
     title: 'Senior Mathematics Educator',
     summary: 'Dedicated Educator with 15+ years of experience in secondary and higher secondary education. Committed to fostering a positive learning environment and implementing innovative teaching methodologies. Specialized in Vedic Mathematics and Competitive Exam preparation.',
-    profileImage: '',
+    profileImage: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&q=80&w=300&h=400',
   },
   skills: ['Mathematics', 'Curriculum Development', 'Student Mentoring', 'Vedic Maths', 'E-Learning Tools', 'Classroom Management', 'Educational Leadership'],
   education: [
@@ -29,7 +29,7 @@ export const getInitialData = () => ({
     address: 'Mumbai, Maharashtra, India',
     title: 'Senior Full Stack Developer',
     summary: 'Passionate Software Engineer with 8+ years of experience in building scalable web applications. Expert in React, Node.js, and Cloud Architecture. Proven track record of leading development teams and delivering high-impact products optimized for performance and user experience.',
-    profileImage: '',
+    profileImage: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=300&h=400',
   },
   skills: ['React.js', 'Node.js', 'TypeScript', 'AWS (Lambda, S3)', 'Docker', 'MongoDB', 'Tailwind CSS', 'System Design'],
   education: [

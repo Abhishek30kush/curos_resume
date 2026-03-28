@@ -20,8 +20,8 @@ export const TemplateProfessional = ({ data }) => {
           </div>
         </div>
         {personal.profileImage && (
-          <div className="w-28 h-28 rounded-lg overflow-hidden border border-slate-100 shadow-sm grayscale hover:grayscale-0 transition-all duration-700">
-            <img src={personal.profileImage} alt="Profile" className="w-full h-full object-cover" />
+          <div className="w-28 h-36 rounded-lg overflow-hidden border border-slate-100 shadow-sm grayscale hover:grayscale-0 transition-all duration-700">
+            <img src={personal.profileImage} alt="Profile" className="w-full h-full object-top object-cover" />
           </div>
         )}
       </header>
